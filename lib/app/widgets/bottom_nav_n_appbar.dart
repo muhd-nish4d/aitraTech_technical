@@ -59,6 +59,7 @@ class MainBottomNavScreen extends StatelessWidget {
       bottomNavigationBar: BottomNavigationBar(
         elevation: 5,
         selectedItemColor: AppColors.textPrimary,
+        unselectedItemColor: AppColors.textPrimary,
         backgroundColor: AppColors.background,
         selectedLabelStyle: TextStyle(
           fontWeight: FontWeight.w700,
